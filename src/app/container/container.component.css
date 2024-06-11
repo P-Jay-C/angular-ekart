@@ -1,0 +1,40 @@
+.ekart--product--container {
+    margin: 20px auto;
+    padding: 0px 15vh;
+  }
+  
+  .ekart-featured-products {
+    background-color: #282828;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .ekart-featured-product-heading {
+    /* Adjust width and padding as needed */
+    max-width: 100%; /* Ensure it uses the full container's width */
+    text-align: center; /* Center the text inside the heading */
+    color: #ffffff; /* Corrected color code */
+  }
+  
+
+ .action-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.title {
+    font-size: 24px; /* Larger font size for the title */
+    color: #333333; /* Dark color for the title */
+    margin-bottom: 10px; /* Space below the title */
+}

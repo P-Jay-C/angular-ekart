@@ -1,0 +1,39 @@
+
+  /*  product items */
+  .ekart-featured-product-item {
+    background-color: #f8f8f8; /* Light background color for contrast */
+    border: 1px solid #dddddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Internal padding */
+    margin: 20px; /* External margin */
+    max-width: 600px; /* Optional: limit the width for a cleaner look */
+    text-align: left; /* Left-align text inside */
+}
+
+.ekart-featured-product-item .title {
+    font-size: 24px; /* Larger font size for the title */
+    color: #333333; /* Dark color for the title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.ekart-featured-product-item .description {
+    font-size: 16px; /* Standard font size for descriptions */
+    color: #555555; /* Slightly lighter color for descriptions */
+    margin-bottom: 20px; /* Space below the description */
+    line-height: 1.5; /* Improved readability */
+}
+
+.ekart-featured-product-item .action-button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.ekart-featured-product-item .action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
